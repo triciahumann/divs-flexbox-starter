@@ -11,7 +11,7 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    color: #fff;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -101,6 +101,11 @@ html {
   height: 100%;
 }
 
+header {
+    font-family: 'Lora', serif;
+    font-size: 2em;
+    color: #fff;
+}
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
@@ -108,9 +113,22 @@ body {
   height: 100%;
 }
 
+.about {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+    border-bottom: 2px solid white;
+}
+
+#font {
+    font-family: 'Lora', serif;
+}
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid white;
   display: flex;
   justify-content: center;
   justify-content: space-between;
