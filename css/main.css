@@ -103,21 +103,31 @@ html {
   font-size: 16px;
 }
 
-header {
-    font-family: 'Lora', serif;
-    font-size: 2em;
-    color: #fff;
-}
 body {
-  font-family: 'Source Sans Pro', sans-serif;
-  padding: 1em;
-  font-size: 1.25em;
-  height: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0 1em;
+    font-size: 1.25em;
+    height: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .container {
     width: 100%;
 }
+
+    /* Header styles */
+header {
+    font-family: 'Lora', serif;
+    font-size: 2em;
+    color: #fff;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+    /* About styles */
 
 .about {
     font-family: 'Source Sans Pro', sans-serif;
@@ -129,8 +139,8 @@ body {
     font-family: 'Lora', serif;
 }
 
-.wrapper {
-  /*add display:flex and set justify-content to space-between*/
+    /* Fun facts styles */
+.fun-facts {
   font-weight: 700;
   display: flex;
   flex-direction: column;
@@ -151,7 +161,7 @@ body {
   border-bottom: 1px solid white;
 }
 
-
+    /* Add footer styles here */
 
 
 
@@ -237,14 +247,16 @@ body {
 @media only screen and (min-width: 768px) {
     /* Style adjustments for viewports that meet the condition */
 
-.wrapper {
-    /*add display:flex and set justify-content to space-between*/
-    
+.about {
+    max-width: 1200px;
+}
+
+.fun-facts {
     border-bottom: 2px solid white;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     justify-content: space-between;
+    max-width: 1200px;
   }
   
   .div-1, .div-2, .div-3 {
