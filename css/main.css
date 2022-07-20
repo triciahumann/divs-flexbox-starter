@@ -127,9 +127,9 @@ h1 {
     margin: 20px 0;
 }
 
-    /* About styles */
+    /* Intro styles */
 
-.about {
+.intro {
     font-family: 'Source Sans Pro', sans-serif;
     color: #fff;
     border-bottom: 2px solid white;
@@ -247,7 +247,7 @@ h1 {
 @media only screen and (min-width: 768px) {
     /* Style adjustments for viewports that meet the condition */
 
-.about {
+.intro {
     max-width: 1200px;
 }
 
