@@ -129,6 +129,7 @@ h1 {
     margin: 20px 0;
 }
 
+
     /* Intro styles */
 
 .intro {
@@ -162,6 +163,9 @@ h1 {
 .div-1, .div-2 {
   border-bottom: 1px solid white;
 }
+
+    /* React project styles */
+
 
     /* Add footer styles here */
 
